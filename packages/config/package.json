@@ -1,0 +1,20 @@
+{
+    "name": "@mylib/config",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Stnaire/my-lib.git",
+        "directory": "packages/config"
+    },
+    "main": "dist/index.cjs.prod.js",
+    "module": "build/index.js",
+    "types": "build",
+    "exports": {
+        ".": "./build",
+        "./package.json": "./package.json"
+    },
+    "dependencies": {
+    },
+    "devDependencies": {
+    }
+}
