@@ -1,5 +1,5 @@
-import { SharedConfiguration, SharedConfigurationSymbol } from "@my-lib/config/shared-configuration";
-import { Container } from "@my-lib/container/container";
+import { SharedConfiguration, SharedConfigurationSymbol } from "@my-lib/config";
+import { Container } from "@my-lib/container";
 import { inject, injectable } from "inversify";
 
 @injectable()

@@ -13,9 +13,9 @@
         "moduleResolution": "node",
         "baseUrl" : ".",
         "paths": {
-            "@my-lib/config/*": ["packages/config/src/*"],
-            "@my-lib/container/*": ["packages/container/src/*"],
-            "@my-lib/storage/*": ["packages/storage/src/*"]
+            "@my-lib/config": ["packages/config/src/index.ts"],
+            "@my-lib/container": ["packages/container/src/index.ts"],
+            "@my-lib/storage": ["packages/storage/src/index.ts"]
         },
         "typeRoots": ["node_modules/@types"]
     }

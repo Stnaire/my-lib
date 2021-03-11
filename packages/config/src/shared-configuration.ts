@@ -1,5 +1,5 @@
-import { Container } from "@my-lib/container/container";
-import { VarHolder } from "@my-lib/storage/var-holder";
+import { Container } from "@my-lib/container";
+import { VarHolder } from "@my-lib/storage";
 import { injectable } from "inversify";
 
 @injectable()
